@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+
+    <style>
+      .container{
+    background: rgb(104, 128, 104);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aquamarine;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+div{
+    margin-top: 30px;
+}
+
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="content">
+        <div>
+          <audio controls autoplay loop muted>
+            <source src="./assets/audio.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+
+        <video controls width="350px" height="350px">
+          <source src="./assets/video.mp4" type="video/mp4" />
+        </video>
+
+        <figure>
+          <img
+            src="./assets/img4.jpeg"
+            alt=""
+            srcset=""
+            width="300px"
+            height="300px"
+          />
+          <figcaption>Figure.1 Lorem ipsum dolor sit amet</figcaption>
+        </figure>
+      </div>
+      <details>
+        <summary>Dropdown here</summary>
+        <ul>
+          <li>Java</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>Javascript</li>
+        </ul>
+      </details>
+      <iframe src="./assets/video.mp4" frameborder="0" width="350px"></iframe>
+    </section>
+  </body>
+</html>
